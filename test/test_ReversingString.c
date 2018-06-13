@@ -27,6 +27,6 @@ void test_getStringLength_given_mumbo_jumbo_string_expect_11 (void) {
 
 void test_ReversingString_given_framework_expect_krowemarf(void)
 {
-  char *str = ReversingString("123456");
-	TEST_ASSERT_EQUAL_STRING ("654321", str);
+  char *str = ReversingString("framework");
+	TEST_ASSERT_EQUAL_STRING ("krowemarf", str);
 }
