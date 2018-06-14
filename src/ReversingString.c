@@ -5,7 +5,7 @@ char *ReversingString(char *str) {
 
 		int length = 0, i = 0, end = 0;
 		char *rstr;
-		static char temp[25] ={};
+		static char temp[1000] ={};
 
 		length = getStringLength(str);	//Counts the string length
 		end = length;
